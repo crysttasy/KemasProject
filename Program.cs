@@ -16,7 +16,7 @@ namespace KemasProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new signIn());
+            Application.Run(new FormLogin());
         }
     }
 }

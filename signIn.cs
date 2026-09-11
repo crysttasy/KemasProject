@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace KemasProject
 {
-    public partial class signIn : Form
+    public partial class FormLogin : Form
     {
-        public signIn()
+        public FormLogin()
         {
             InitializeComponent();
         }
