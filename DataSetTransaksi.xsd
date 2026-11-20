@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetTransaksi" targetNamespace="http://tempuri.org/DataSetTransaksi.xsd" xmlns:mstns="http://tempuri.org/DataSetTransaksi.xsd" xmlns="http://tempuri.org/DataSetTransaksi.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetTransaksi" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetTransaksi" msprop:Generator_UserDSName="DataSetTransaksi">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtTransaksi" msprop:Generator_TableClassName="dtTransaksiDataTable" msprop:Generator_TableVarName="tabledtTransaksi" msprop:Generator_TablePropName="dtTransaksi" msprop:Generator_RowDeletingName="dtTransaksiRowDeleting" msprop:Generator_RowChangingName="dtTransaksiRowChanging" msprop:Generator_RowEvHandlerName="dtTransaksiRowChangeEventHandler" msprop:Generator_RowDeletedName="dtTransaksiRowDeleted" msprop:Generator_UserTableName="dtTransaksi" msprop:Generator_RowChangedName="dtTransaksiRowChanged" msprop:Generator_RowEvArgName="dtTransaksiRowChangeEvent" msprop:Generator_RowClassName="dtTransaksiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="No_x0020__x003A__x0020_System.Int32" msprop:Generator_ColumnVarNameInTable="_columnNo___System_Int32" msprop:Generator_ColumnPropNameInRow="_No___System_Int32" msprop:Generator_ColumnPropNameInTable="_No___System_Int32Column" msprop:Generator_UserColumnName="No : System.Int32" type="xs:string" minOccurs="0" />
+              <xs:element name="id_x0020__x003A__x0020_System.Int32" msprop:Generator_ColumnVarNameInTable="_columnid___System_Int32" msprop:Generator_ColumnPropNameInRow="_id___System_Int32" msprop:Generator_ColumnPropNameInTable="_id___System_Int32Column" msprop:Generator_UserColumnName="id : System.Int32" type="xs:string" minOccurs="0" />
+              <xs:element name="nomor_surat_x0020__x003A__x0020_System.String" msprop:Generator_ColumnVarNameInTable="_columnnomor_surat___System_String" msprop:Generator_ColumnPropNameInRow="_nomor_surat___System_String" msprop:Generator_ColumnPropNameInTable="_nomor_surat___System_StringColumn" msprop:Generator_UserColumnName="nomor_surat : System.String" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_siswa_x0020__x003A__x0020_System.String" msprop:Generator_ColumnVarNameInTable="_columnnama_siswa___System_String" msprop:Generator_ColumnPropNameInRow="_nama_siswa___System_String" msprop:Generator_ColumnPropNameInTable="_nama_siswa___System_StringColumn" msprop:Generator_UserColumnName="nama_siswa : System.String" type="xs:string" minOccurs="0" />
+              <xs:element name="jenis_izin_x0020__x003A__x0020_System.String" msprop:Generator_ColumnVarNameInTable="_columnjenis_izin___System_String" msprop:Generator_ColumnPropNameInRow="_jenis_izin___System_String" msprop:Generator_ColumnPropNameInTable="_jenis_izin___System_StringColumn" msprop:Generator_UserColumnName="jenis_izin : System.String" type="xs:string" minOccurs="0" />
+              <xs:element name="waktu_izin_x0020__x003A__x0020_System.DateTime" msprop:Generator_ColumnVarNameInTable="_columnwaktu_izin___System_DateTime" msprop:Generator_ColumnPropNameInRow="_waktu_izin___System_DateTime" msprop:Generator_ColumnPropNameInTable="_waktu_izin___System_DateTimeColumn" msprop:Generator_UserColumnName="waktu_izin : System.DateTime" type="xs:string" minOccurs="0" />
+              <xs:element name="keperluan_x0020__x003A__x0020_System.String" msprop:Generator_ColumnVarNameInTable="_columnkeperluan___System_String" msprop:Generator_ColumnPropNameInRow="_keperluan___System_String" msprop:Generator_ColumnPropNameInTable="_keperluan___System_StringColumn" msprop:Generator_UserColumnName="keperluan : System.String" type="xs:string" minOccurs="0" />
+              <xs:element name="status_x0020__x003A__x0020_System.String" msprop:Generator_ColumnVarNameInTable="_columnstatus___System_String" msprop:Generator_ColumnPropNameInRow="_status___System_String" msprop:Generator_ColumnPropNameInTable="_status___System_StringColumn" msprop:Generator_UserColumnName="status : System.String" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
